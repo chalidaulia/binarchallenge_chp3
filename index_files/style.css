@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('D:/Binar Bootcamp/FSW - Chapter 3 Reading Material & Challenge/binar_challenge_1/assets/main-bg.jpg');
+    background-size: 100% 100%;
+    height: 900px;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    overflow: hidden;
+}
+
+.logo {
+    flex-grow: 0.8;
+    margin-left: 80px;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul li {
+    list-style-type: none;
+}
+
+#navbar .menu{
+    display: flex;
+    flex-grow: 2.7;
+}
+
+#navbar .auth{
+    display: flex;
+    flex-grow: 0.6;
+}
+
+#navbar .menu li,
+#navbar .auth li{
+    margin: 40px;
+}

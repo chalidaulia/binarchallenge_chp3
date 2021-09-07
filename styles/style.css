@@ -1,0 +1,555 @@
+.main-screen {
+    background-image: url('../assets/main-bg-edit.jpg');
+    height: 880px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.auth {
+    position: relative;
+    left: -100px;
+  }
+
+.main-bg-dark {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    height: 85px;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    padding-bottom: .30rem;
+    left: 80px;
+    position: relative;
+  }
+  
+  .navbar-nav {
+    margin-left: 220px;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: norma;
+    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: inherit;
+  }
+
+
+  /* jumbotron */
+
+  
+.nav-link{
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: white !important;
+  font-weight: bold;
+  /* justify-content: space-between; */
+}
+
+.jumbotron {
+  color:rgb(77, 77, 77);
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.maintitle{
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.experience{
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.btn-warning{
+  font-size: 17px;
+  font-weight: bold;
+  height: 70px;
+  width: 280px;
+}
+
+.buttondown{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 35vh;
+  text-align: center;
+}
+
+
+#rockpaperscissors{
+  background-image: url('../assets/the-games-bg-edit.jpg');
+  height: 100vh;
+  background-size: cover;
+  position:relative;  
+}
+
+.wss1{
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 5vw;
+  padding-left: 10vw;
+}
+
+.thegames{
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-left: 10vw;
+  letter-spacing: 4px;
+}
+
+#carouselExampleIndicators{
+  position: absolute;
+  margin-left: 35vw;
+  margin-right: 15vw;
+}
+
+
+
+/* features page */
+#bald{
+  background-image: url('../assets/features-edit.jpg');
+  height: 134vh;
+  background-position: top;
+  background-size: contain;
+}
+
+.whatspecial{
+  color: white;
+  font-size: 1.3rem;
+  padding-left: 55vw;
+  padding-top: 40vh;
+}
+
+.featurestitle{
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  padding-left: 55vw;
+  letter-spacing: 0.2rem;
+}
+
+.list{
+  color: white;
+  padding-top: 4vh;
+  padding-left: 55vw;
+}
+
+.featurespoints{
+  text-transform: uppercase;
+  color: #ffb548;
+  font-size: 1.2rem;
+}
+
+.featurestext{
+  color: white;
+  font-size: 1vw;
+}
+
+.circle{
+  color: white;
+} /* radio buttons? */
+
+
+
+
+
+/* spec page */
+
+#spec{
+  background-image: url('../assets/requirements-edit.jpg');
+  height: 140vh;
+  background-size: contain;
+}
+
+.canmycom{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.sysreq{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-left: 15vw;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.table{
+  color: white;
+  width: 30vw;
+  font-size: 20px;
+}
+
+table, th, td {
+  margin-left: 15vw;
+  border: 1px solid black;
+  position: relative;
+  border-collapse: collapse;
+  border-color: rgb(77, 77, 77);
+}
+
+th, td {
+  padding: 7px;
+}
+
+.speccategory{
+  color: #ffb548;
+  text-transform: uppercase;
+}
+
+.speccontent{
+  font-size: 0.6rem;
+  font-size: 12px;
+}
+
+
+
+/* TOP SCORES page */
+
+
+#topscore{
+  background-image: url('../assets/top-score-bg-edit.jpg');
+  height: 100vh;
+  background-size: contain;
+  
+}
+
+.jumbotron2 {
+  padding-left: 15vw;
+}
+
+.card{
+  background-color: #1c1e1f;
+  position: relative;
+  width: 20vw; 
+  height: 21vh;
+}
+
+.card-body{
+  margin-left: 0vw;
+  margin-top: 3px;
+}
+
+.card-title{
+  color: #ffb548;
+  position: relative;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  
+}
+
+.testimonytitle{
+  color: #8c8d8d;
+  font-size: 0.8rem;
+}
+
+.img-fluid{
+  clip-path: circle();
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.card-text{
+  color: white;
+  text-align: left;
+  font-size: 0.7rem;
+  padding-bottom: 10px;
+}
+
+
+
+.twitter{
+  padding-left: 110px;
+  image-resolution:inherit;
+}
+
+.topscores{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 370;
+}
+
+.topscorestext{
+  color: white;
+  font-weight: 100;
+  padding-bottom: 10;
+  margin-bottom: 5vh;
+}
+
+#newletter{
+  background-color: black;
+  height: 100vh;
+  background-size: contain;
+  display: grid;
+}
+
+.skullbox{
+  position: absolute;
+  display: flex;
+  margin-left: 10vw;
+  margin-bottom: 10vw;
+}
+
+.skull{
+  margin-left: 5vw; 
+  padding-top: 0vh;
+  margin-bottom: 10vw;
+}
+
+.wannastay{
+  color: white;
+  font-size: 15px;
+  padding-left: 40.5vw;
+  padding-top: 10vh;
+}
+
+.newlettertitle{
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.newslettertext{
+  color: white;
+  font-size: 13px;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.jumbotron3 {
+  padding-left: 40vw;
+  padding-bottom: 20vh;
+}
+
+.email{
+  background-color: #1c1e1f;
+  width: 16vw;
+  font-size: 20px;
+}
+
+.footermenu{
+  display: flex;
+  text-transform: uppercase;
+}
+
+.footermenu ul{
+  display:flex;
+  margin-left: 20vw;
+  margin-bottom: 0.5vh;
+  font-size: 1rem;
+}
+
+.socmed{
+  margin-left: 2vw;
+  letter-spacing: 20px;
+}
+
+.copyright{
+  color: rgb(71, 71, 71);
+  display: grid;
+  font-size: 0.7rem;
+  margin-left: 10px;
+  /* margin-top: -3px; */
+  margin-top: -0.7vh;
+}
+
+.pp{
+  color: white;
+  text-transform: uppercase;
+  margin-left: 74vw;
+  margin-top: -4vh;
+  font-size: 0.7rem;
+}
+
+.bottommosttexts{
+  color: white;
+  background-color: white;
+  width: 100%; height: 2px;
+}
+
+@media (max-width: 576px){
+  .whatspecial{
+    color: white;
+    position: relative;
+    font-size: 1.2rem;
+    padding-left: 46vw;
+    padding-top: 12vh;
+  }
+
+  .featurestitle{
+      color: white;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 2.8rem;
+      padding-left: 45vw;
+      letter-spacing: 0.2rem;
+    }
+
+    .featurestext{
+      color: white;
+      font-size: 0.5vw;
+    }
+
+  .card{
+      background-color: #1b1c1d;
+      position: relative;
+      top: -3vh;
+    }
+
+  .card-title{
+      color: #ffb548;
+      font-size: 0.4rem;
+      position: relative;
+    }
+  
+  .testimonytitle{
+    color: #8c8d8d;
+    font-size: 0.4rem;
+  }
+
+  .img-fluid{
+      clip-path: circle();
+      margin: 2px;
+      margin-top: 15px;
+      width: 50px;
+    }
+
+  .card-text{
+    color: white;
+    position: inherit;
+    font-size: 0.3rem;
+    text-align: left;
+  }
+
+  .card-body{
+    color: white;
+    position: inherit;
+    margin-left: 10vw;
+    margin-top: -9vh;
+  }
+
+  .twitter{
+      padding-left: 7vh;
+      position: inherit;
+    }
+
+  .topscores{
+    color: white;
+    position: relative;
+    font-weight: 300;
+      font-size: 1.8rem;
+    }
+
+  .topscorestext{
+    color: white;
+    position: relative;
+    font-size: 0.5rem;
+    font-weight: 90;
+  }
+
+  .jumbotron3 {
+    font-size: 1rem;
+    position: inherit;
+    padding-left: 40vw;
+    padding-bottom: 45vh;
+  }
+  
+  .wannastay{
+      color: white;
+      position: relative;
+      padding-left: 40vw;
+      padding-top: 5vh;
+      font-size: 1rem;
+    }
+
+  .newlettertitle{
+      color: white;
+      text-transform: uppercase;
+      position: relative;
+      font-size: 1.5rem;
+      letter-spacing: 4px;
+    }
+  
+  .newslettertext{
+      color: white;
+      font-family: inherit;
+      font-size: 0.4rem;
+    }
+
+  .btn-warning{
+    width: 18vw;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .footermenu ul{
+      display: grid;
+      margin-left: 1vw;
+      margin-top: -40vh;
+    }
+
+  .copyright{
+    display: grid;
+    font-size: 0.4rem;
+    color: white;
+    margin-left: 3vw;
+    margin-bottom: 5.5vh;
+  }
+  
+  .pp{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 75vh;
+    margin-top: -7vh;
+    font-size: 0.4rem;
+  }
+}
+
+
+
+
+
+
+/* testing */
+.box{
+    /* background: pink; */
+    /* background-image: url(../assets/main-bg.jpg); */
+    padding: 100px;
+    margin: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
